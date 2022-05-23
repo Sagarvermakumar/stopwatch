@@ -1,0 +1,51 @@
+/* Variabes  
+$orange: #ffa600;
+$grey:#f3f3f3;
+$white: #fff;
+$base-color:$orange ;
+
+
+*/
+
+body {
+  background: orange;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  width: 800px;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+}
+
+h1, span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+  }
+  
+  #second #tens{
+    font-size:2em;
+  }
+button {
+  background: orange;
+  color: white;
+  border: solid 1px white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width : 180px;
+  margin: 10px;
+  outline: none;
+  border-radius: 12px;
+}
+button:hover {
+    background: #f3ebcc;
+    border: solid 1px white;
+    color: orange;
+  }
